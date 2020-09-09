@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0%;
+    font: 62.5%;
+}
+
+
+body
+{
+ background-color: darkgoldenrod;
+ /*background-image: url("../imagen/whipala.svg");*/
+ display: block;
+
+
+}
+.transparence
+{
+    position: absolute;
+    display: block;
+    left: 10%;
+    background-color: whitesmoke;
+    width: 80%;
+    -webkit-box-shadow: 2px 2px 10px rgb(110, 86, 86);
+    -moz-box-shadow: 2px 2px 10px rgb(165, 159, 159);
+
+
+}
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 370px;
+    margin-right: 20%;
+    height: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-image: url("../imagen/whipala.svg"); */
+    align-content: center;
+    -webkit-box-shadow: 2px 2px 10px white;
+    -moz-box-shadow: 2px 2px 10px white;
+
+}
+
+.adorno
+{
+    position: absolute;
+    left: -30px;
+    top: 316px;
+    width: 400px;
+    height: 120px;
+    background-color: #ffcc00ff;
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+
+}
+
+.logo
+{   
+    /*position: relative;
+    /*position: absolute;*/
+    margin-top: 10%;
+    margin-bottom:10% ;
+    width: auto;
+    height: 80%;
+    max-height: 209px;
+    z-index: 5;
+}
+
+.fondo
+{   
+    position: absolute;
+    /*position: absolute;
+    top:20px;*/
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    z-index: 5;
+}
+
+.general
+{   
+    display: flex;
+    position: relative;
+    justify-content: right;   
+    background-color: #d0c7ab;
+    height: 65px;
+    width: 100%;
+    z-index: 7;
+    color: white;
+    font-size: 1.5rem;
+ 
+    
+}
+
+.menu-main
+{   
+    position: relative;
+    display: inline-block;   
+    background-color: #d0c7ab;;
+    height: 65px;
+    width: 100%;
+    z-index: 80;
+    color: rgba(100,100,100,1);
+    font-size: 1rem;
+    float: right;
+    
+}
+
+#whipala
+{
+    height: 65px;
+    
+    width: auto;
+}
+
+.space
+{
+    max-width: 65px;
+}
+
+nav
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+nav li 
+{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px ;
+    margin-bottom: 20px;
+    
+}
+
+nav li:hover 
+{
+    display: inline-block;
+    border-top: 20px;
+    border-right: 15px;
+    border-left: 15px ;
+    border-color: yellow;
+    background-color: rgb(223, 247, 12);
+    border
+    
+}
+
+.carousel-container
+{   
+    position: relative;
+    width: 100%;
+}
+
+#img-footer
+{
+    height: auto;
+    width: 100%;
+}
+
+.footer-volcano
+{
+    background-color: white;
+}
